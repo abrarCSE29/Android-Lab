@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Beer Adviser</string>
+    <string name="find_beer">Select Menu</string>
+    <string name="brands">No beer selected</string>
+    <string name="this_is_a_text_view_string_brands">This is a text view@string/brands</string>
+    <string-array name="menu">
+        <item>breakfast</item>
+        <item>lunch</item>
+        <item>dinner</item>
+    </string-array>
+</resources>
