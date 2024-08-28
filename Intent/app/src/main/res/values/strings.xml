@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="hint">hint</string>
+    <string name="send_message">Send Message</string>
+</resources>
