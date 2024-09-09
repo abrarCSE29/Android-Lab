@@ -17,11 +17,11 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toEndOf="@+id/hallNameSideBar"
         app:layout_constraintStart_toStartOf="@+id/frameLayout"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.537" />
+        app:layout_constraintVertical_bias="0.237" />
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -32,9 +32,9 @@
     </FrameLayout>
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/hallNameSideBar"
+        android:layout_width="191dp"
+        android:layout_height="204dp"
         android:paddingBottom="120sp"
         android:rotation="-90"
         android:scaleX="1.25"
@@ -42,51 +42,27 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497" />
+        app:layout_constraintVertical_bias="0.498" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/jahanirnagar_university"
+        android:text="Undergrad student at Jahangirnagar University"
         android:textColor="@color/blue"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="@+id/frameLayout"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.049" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="64dp"
-        android:layout_height="70dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.201"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02"
-        app:srcCompat="@drawable/ju_logo" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="184dp"
-        android:layout_height="178dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.612"
-        app:layout_constraintStart_toStartOf="@+id/frameLayout"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213"
-        app:srcCompat="@drawable/propic" />
+        app:layout_constraintVertical_bias="0.106" />
 
     <TextView
         android:id="@+id/textView5"
@@ -95,14 +71,38 @@
         android:scaleX="1.25"
         android:text="Abrar Hameem"
         android:textColor="@color/blue"
-        android:textSize="25sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintHorizontal_bias="0.297"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.428" />
+        app:layout_constraintVertical_bias="0.059" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        app:srcCompat="@drawable/ju_logo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="134dp"
+        android:layout_height="138dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206"
+        app:srcCompat="@drawable/propic" />
 
     <TextView
         android:id="@+id/textView6"
@@ -112,10 +112,10 @@
         android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintHorizontal_bias="0.712"
         app:layout_constraintStart_toEndOf="@+id/frameLayout"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.492" />
+        app:layout_constraintVertical_bias="0.198" />
 
     <TextView
         android:id="@+id/textView8"
@@ -125,24 +125,24 @@
         android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.49" />
+        app:layout_constraintVertical_bias="0.407" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="49"
-        android:textStyle="bold"
         android:textColor="@color/blue"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.726"
+        app:layout_constraintHorizontal_bias="0.708"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.535" />
+        app:layout_constraintVertical_bias="0.406" />
 
     <TextView
         android:id="@+id/textView10"
@@ -152,10 +152,10 @@
         android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintHorizontal_bias="0.658"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.601" />
+        app:layout_constraintVertical_bias="0.278" />
 
     <TextView
         android:id="@+id/textView11"
@@ -165,24 +165,24 @@
         android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintHorizontal_bias="0.191"
         app:layout_constraintStart_toStartOf="@+id/frameLayout"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.392" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="166dp"
         android:layout_height="46dp"
+        android:text="Department of Computer Science and Engineering"
         android:textColor="@color/blue"
         android:textStyle="bold"
-        android:text="Department of Computer Science and Engineering"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintHorizontal_bias="0.922"
         app:layout_constraintStart_toStartOf="@+id/frameLayout"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654" />
+        app:layout_constraintVertical_bias="0.339" />
 
     <TextView
         android:id="@+id/textView13"
@@ -193,10 +193,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintHorizontal_bias="0.215"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.634" />
+        app:layout_constraintVertical_bias="0.434" />
 
     <TextView
         android:id="@+id/textView14"
@@ -206,38 +206,38 @@
         android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="@+id/frameLayout"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.743" />
+        app:layout_constraintVertical_bias="0.443" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AB+"
-        android:textStyle="bold"
         android:textColor="@color/blue"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintHorizontal_bias="0.815"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Signature"
-        android:textStyle="bold"
         android:textColor="@color/blue"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintHorizontal_bias="0.822"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.778" />
+        app:layout_constraintVertical_bias="0.928" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -245,10 +245,11 @@
         android:layout_height="136dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.595"
+        app:layout_constraintHorizontal_bias="0.202"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.961"
+        app:layout_constraintVertical_bias="0.94"
+        android:onClick="openJunivPIS"
         app:srcCompat="@drawable/jupis" />
 
     <ImageView
@@ -257,10 +258,142 @@
         android:layout_height="73dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintHorizontal_bias="0.878"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.763"
+        app:layout_constraintVertical_bias="0.875"
         app:srcCompat="@drawable/sign2" />
+
+    <TextView
+        android:id="@+id/contactMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get in touch :"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openEmail"
+        android:text="Email : abrarhameem398@outlook.com"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openDialer"
+        android:text="Mobile : 01521102764"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <TextView
+        android:id="@+id/linkedin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openLinkedIn"
+        android:text="LinkedIn : Abrar Hameem"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <TextView
+        android:id="@+id/github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openGithub"
+        android:text="github : abrarCSE29"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <ImageView
+        android:id="@+id/iconEmail"
+        android:layout_width="25dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="9dp"
+        android:onClick="openEmail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556"
+        app:srcCompat="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/iconPhone"
+        android:layout_width="22dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="9dp"
+        android:onClick="openDialer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605"
+        app:srcCompat="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/iconLinkedin"
+        android:layout_width="24dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="9dp"
+        android:onClick="openLinkedIn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        app:srcCompat="@drawable/linkedin" />
+
+    <ImageView
+        android:id="@+id/iconGithub"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="9dp"
+        android:onClick="openGithub"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        app:srcCompat="@drawable/github" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
